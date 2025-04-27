@@ -6,7 +6,7 @@ Welcome to **MediSync** – a web application designed to streamline doctor appo
 
 ## 🌟 Features
 
-- **Doctor Appointment Booking** 📅: Patients can book appointments with real-time availability.
+- **Doctor Appointment Booking** 📅: Patients can book appointments with real-time availability.....................
 - **Patient & Doctor Record Management** 🔐: Secure storage and management of records using cloud-based services.
 - **Admin Panel** 🛠️: A dedicated dashboard for admins to manage doctor and patient appointments efficiently.
 - **Doctor Recommendations** 🤖: AI-powered recommendations for doctors based on patient symptoms through a chatbot.
