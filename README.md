@@ -27,3 +27,6 @@ Welcome to **MediSync** – a web application designed to streamline doctor appo
 - **AI Integrations:** Gemini AI 1.5 Flash, Azure Vision for OCR
 
 
+<!-- this is the new updation happens in my project -->
+
+
