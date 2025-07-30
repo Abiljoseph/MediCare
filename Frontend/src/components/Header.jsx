@@ -18,12 +18,17 @@ const Header = () => {
               <span className="text-emerald-400 font-medium">✨ Trusted by 10,000+ Patients</span>
             </div>
 
-            {/* Main Heading */}
+            {/* Main Heading with animated arrow */}
             <div className="space-y-4">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight flex items-center gap-3">
                 Expert Healthcare
                 <span className="block bg-gradient-to-r from-blue-200 to-emerald-200 bg-clip-text text-transparent">
                   At Your Fingertips
+                </span>
+                <span className="inline-block animate-bounce">
+                  <svg className="w-7 h-7 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 13l-5 5m0 0l-5-5m5 5V6" />
+                  </svg>
                 </span>
               </h1>
               <p className="text-lg text-blue-100 leading-relaxed max-w-xl">
@@ -56,11 +61,11 @@ const Header = () => {
               </div>
             </div>
 
-            {/* CTA Buttons */}
+            {/* CTA Buttons - Enhanced */}
             <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
               <a
                 href="#speciality"
-                className="relative overflow-hidden rounded-xl bg-white px-8 py-4 text-base font-bold text-blue-900 transition-all duration-300 hover:scale-105 hover:shadow-lg"
+                className="group relative overflow-hidden rounded-xl bg-white px-8 py-4 text-base font-bold text-blue-900 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:bg-blue-50 focus:outline-none focus:ring-2 focus:ring-blue-400"
               >
                 <span className="relative z-10 flex items-center justify-center gap-2">
                   Book Appointment
@@ -78,6 +83,29 @@ const Header = () => {
                     />
                   </svg>
                 </span>
+                <span className="absolute left-0 top-0 w-full h-full bg-gradient-to-r from-blue-100 to-emerald-100 opacity-0 group-hover:opacity-20 transition-all duration-300" />
+              </a>
+              <a
+                href="#consult"
+                className="group relative overflow-hidden rounded-xl bg-gradient-to-r from-emerald-500 to-blue-500 px-8 py-4 text-base font-bold text-white transition-all duration-300 hover:scale-105 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-emerald-400"
+              >
+                <span className="relative z-10 flex items-center justify-center gap-2">
+                  Consult Now
+                  <svg
+                    className="w-5 h-5 transition-transform duration-300 group-hover:translate-x-1"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M8 17l4-4 4 4M12 3v14"
+                    />
+                  </svg>
+                </span>
+                <span className="absolute left-0 top-0 w-full h-full bg-gradient-to-r from-emerald-100 to-blue-100 opacity-0 group-hover:opacity-20 transition-all duration-300" />
               </a>
             </div>
           </div>
